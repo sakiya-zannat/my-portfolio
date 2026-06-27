@@ -3,7 +3,7 @@
 A clean, modern, and fully responsive personal portfolio website designed to showcase my academic journey, projects, technical skills, and research interests.
 
 ## 🔗 Live Demo & Design Links
-* **Live Website:** [View Live Site](https://sakiya-zannat.github.io/my-portfolio/)
+* **Live Website:[View Live Site](https://sakiya-zannat.github.io/my-portfolio/)
 * **Figma Design Prototype:** https://www.figma.com/proto/m7O6KvYFTaPWaLO7gX7BdU/C251237-final?node-id=1-2&p=f&t=K701P9DrIjQr7qSF-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2
 
 ---
