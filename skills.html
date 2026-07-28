@@ -15,12 +15,10 @@
     <header>
         <div class="logo">Sakia</div>
         
-        
         <div class="hamburger" id="hamburger">
             <i class="fa-solid fa-bars"></i>
         </div>
 
-       
         <nav id="nav-menu">
             <ul>
                 <li><a href="index.html"><img src="images/home.png" alt="Home" class="menu-icon"> Home</a></li>
@@ -38,37 +36,38 @@
     <section class="skills-section">
         <h2 data-background="MY SKILLS">MY <span class="highlight">SKILLS</span></h2>
         
-        <div class="minimal-skills-row">
-            <div class="skill-category">
-                <h3>Frontend Development</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Responsive Design</li>
-                    <li>Figma</li>
-                </ul>
+        <!-- Frontend Development Card -->
+        <div class="info-card">
+            <h3><i class="fa-solid fa-laptop-code"></i> Frontend Development</h3>
+            <div class="pills-container">
+                <span class="pill"><i class="fa-brands fa-html5"></i> HTML</span>
+                <span class="pill"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                <span class="pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="pill"><i class="fa-solid fa-mobile-screen"></i> Responsive Design</span>
+                <span class="pill"><i class="fa-brands fa-figma"></i> Figma</span>
             </div>
+        </div>
 
-            <div class="skill-category">
-                <h3>Programming</h3>
-                <ul>
-                    <li>C++</li>
-                    <li>Data Structures</li>
-                    <li>Algorithms</li>
-                    <li>OOP</li>
-                </ul>
+        <!-- Programming Card -->
+        <div class="info-card">
+            <h3><i class="fa-solid fa-code"></i> Programming</h3>
+            <div class="pills-container">
+                <span class="pill">C++</span>
+                <span class="pill">Data Structures</span>
+                <span class="pill">Algorithms</span>
+                <span class="pill">OOP</span>
             </div>
+        </div>
 
-            <div class="skill-category">
-                <h3>Tools</h3>
-                <ul>
-                    <li>GitHub</li>
-                    <li>VS Code</li>
-                    <li>Canva</li>
-                </ul>
+        <!-- Tools Card -->
+        <div class="info-card">
+            <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+            <div class="pills-container">
+                <span class="pill"><i class="fa-brands fa-github"></i> GitHub</span>
+                <span class="pill"><i class="fa-solid fa-code"></i> VS Code</span>
+                <span class="pill"><i class="fa-solid fa-palette"></i> Canva</span>
             </div>
-        </div>    
+        </div>
     </section>
 
     <footer id="contact-links">
@@ -80,7 +79,6 @@
         </div>
     </footer>
 
-    
     <script>
         const hamburger = document.getElementById('hamburger');
         const navMenu = document.getElementById('nav-menu');

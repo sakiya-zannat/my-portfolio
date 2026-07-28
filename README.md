@@ -1,40 +1,108 @@
-# Personal Portfolio Website
+# Sakiatun Zannat - Portfolio Website
 
-A clean, modern, and fully responsive personal portfolio website designed to showcase my academic journey, projects, technical skills, and research interests.
+## 📋 Overview
+Personal portfolio website showcasing my work as a Computer Communication Engineering Student and Developer. Features responsive design, project showcase, interactive skill cards, and continuous education timeline.
 
-## 🔗 Live Demo & Design Links
-* **Live Website:[View Live Site](https://sakiya-zannat.github.io/my-portfolio/)
-* **Figma Design Prototype:** https://www.figma.com/proto/m7O6KvYFTaPWaLO7gX7BdU/C251237-final?node-id=1-2&p=f&t=K701P9DrIjQr7qSF-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2
+**Live Portfolio Link :** https://sakiya-zannat.github.io/
+
+
+## 📌 Key Features
+- **Fully Responsive** - Optimized for mobile, tablet, and desktop view
+- **Interactive Layout** - Smooth navigation with dedicated skill cards
+- **Projects Section** - Showcase of academic and personal coding projects
+- **Education Timeline** - Visual progress of academic journey
+- **Contact Form** - Direct communication section
+- **Clean UI** - Dark theme with custom typography and smooth animations
+
+
+
+## 🛠️ Technologies
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+- **Icons:** Font Awesome, Custom PNG Icons
+- **Fonts:** Google Fonts (Inter, Rubik Scribble, Poppins)
+- **Deployment:** GitHub Pages compatible
 
 ---
 
-## ✨ Features
-- **Responsive Layout:** Optimized for all screen sizes including desktops, tablets, and mobile devices.
-- **Dynamic Navigation:** Clean multi-page structure (`index.html`, `about.html`, `projects.html`, etc.) with intuitive icon-based menus.
-- **Future Goals Tracking:** Displays upcoming projects and active research interests in Human-Computer Interaction (HCI) and Networking.
-- **Social Integration:** Embedded links to Facebook, LinkedIn, GitHub, and Email for seamless connectivity.
+## 📁 Project Structure
 
----
+```text
+portfolio/
+├── index.html           # Home page
+├── about.html           # About me section
+├── education.html       # Academic timeline
+├── achievements.html    # Achievements & certifications
+├── project.html         # Projects showcase
+├── publication.html     # Academic publications
+├── skills.html          # Technical skills & tools
+├── contact.html         # Contact form
+├── style.css            # Global CSS styling
+└── images/              # Assets & icons
 
-## 🛠️ Tech Stack & Tools
-- **Design:** Figma
-- **Front-End:** HTML5, CSS3, JavaScript
-- **Icons:** Font Awesome, Native PNG Icons
-- **Fonts:** Google Fonts (Inter, Poppins, Rubik Scribble)
-- **Version Control & Hosting:** Git, GitHub, GitHub Pages
+🚀 Quick Setup
 
----
+    Clone repository:
 
-## 🚀 Local Installation Guide
+Bash
 
-Follow these simple steps to run this project locally on your device:
+git clone https://github.com/sakiya-zannat/portfolio.git 
+cd portfolio
 
-### Prerequisites
-Make sure you have **Git** installed on your system.
+   1. Open index.html directly in browser
+   2. or use a local server:
 
-### Step-by-Step Setup
+Bash
 
-1. **Clone the Repository**
-   Open your Git Bash or terminal and run the following command to clone the project:
-   ```bash
-   git clone [https://github.com/sakiya-zannat/my-portfolio.git](https://github.com/sakiya-zannat/my-portfolio.git)
+python -m http.server 8000
+
+⚙️ Customization Guide
+Update Personal Info:
+
+    1.Edit index.html - Name, bio, and hero content
+
+   2. Replace images in images/ folder
+
+   3. Update social links in footer section
+
+   4. Modify color variables in style.css
+
+Add New Projects:
+HTML
+
+<div class="project-card-v2">
+    <div class="project-img-wrapper">
+        <img src="images/project-preview.png" alt="Project Title">
+    </div>
+    <div class="project-info">
+        <h3>Project Title</h3>
+        <p>Short project description explaining key features.</p>
+        <div class="project-btn-container">
+            <a href="#" class="btn-github-v2"><i class="fa-brands fa-github"></i> View Code</a>
+        </div>
+    </div>
+</div>
+
+📊 Content Highlights
+
+    Field of Study: Computer Science and Engineering (CSE)
+
+    Primary Skills: C++, Java, JavaScript, Data Structures, OOP, Web Design
+
+    Key Projects: E-Commerce Management System Project, Personal Portfolio
+
+🌐 Deployment Options
+GitHub Pages:
+
+   1. Push to GitHub repository
+   2. Settings → Pages → Select main branch
+   3. Site: https://username.github.io/repo
+
+
+📞 Contact & Links
+
+Sakiatun Zannat
+Computer Science and Engineering Student
+
+✉️ [sakia.zannat2023@gmail.com](mailto:sakia.zannat2023@gmail.com)  
+
+[LinkedIn](https://www.linkedin.com/in/sakiatun-zannat-332943293) • [GitHub](https://github.com/sakiya-zannat) • [Facebook](https://www.facebook.com/sakia.zannat1)

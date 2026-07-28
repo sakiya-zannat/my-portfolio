@@ -15,12 +15,10 @@
     <header>
         <div class="logo">Sakia</div>
         
-      
         <div class="hamburger" id="hamburger">
             <i class="fa-solid fa-bars"></i>
         </div>
 
-       
         <nav id="nav-menu">
             <ul>
                 <li><a href="index.html"><img src="images/home.png" alt="Home" class="menu-icon"> Home</a></li>
@@ -35,9 +33,34 @@
         </nav>
     </header>
 
-    <section class="about-section">
+<section class="about-section">
         <h2 class="about-title" data-background="ABOUT ME">ABOUT <span class="highlight">ME</span></h2>
-        <p class="about-text">Aspiring software engineer and Computer Science student specializing in building responsive web applications and solving complex algorithmic challenges. Proficient in C++, JavaScript, and modern web technologies (HTML/CSS), with a solid foundation in data structures and algorithms. Combines technical expertise with a creative approach to develop user-centric, scalable solutions. Eager to leverage analytical skills and a continuous-learning mindset to contribute to impactful software engineering projects.</p>
+        
+        <!-- About Summary Card -->
+        <div class="info-card bio-card">
+            <p class="about-text">Aspiring software engineer and Computer Science student specializing in building responsive web applications and solving complex algorithmic challenges. Proficient in C++, JavaScript, and modern web technologies (HTML/CSS), with a solid foundation in data structures and algorithms. Combines technical expertise with a creative approach to develop user-centric, scalable solutions.</p>
+        </div>
+
+        <!-- Hobbies & Creative Interests Card -->
+        <div class="info-card">
+            <h3>Creative Passions & Crafts</h3>
+            <div class="pills-container">
+                <span class="pill"><i class="fa-solid fa-gem"></i> Handmade Jewelry Business</span>
+                <span class="pill"><i class="fa-solid fa-scissors"></i> Crafting & DIY</span>
+                <span class="pill"><i class="fa-solid fa-paintbrush"></i> Drawing & Sketching</span>
+                <span class="pill"><i class="fa-solid fa-camera"></i> Photography</span>
+            </div>
+        </div>
+
+        <!-- Design & Software Tools Card -->
+        <div class="info-card">
+            <h3>Design & Software Tools</h3>
+            <div class="pills-container">
+                <span class="pill"><i class="fa-solid fa-pen-nib"></i> Graphic Design</span>
+                <span class="pill"><i class="fa-solid fa-image"></i> Photoshop</span>
+                <span class="pill"><i class="fa-solid fa-bezier-curve"></i> Illustrator</span>
+            </div>
+        </div>
     </section>
 
     <footer id="contact-links">
@@ -49,7 +72,6 @@
         </div>
     </footer>
 
-    
     <script>
         const hamburger = document.getElementById('hamburger');
         const navMenu = document.getElementById('nav-menu');
