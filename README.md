@@ -46,12 +46,10 @@ portfolio/
 ## 🚀 Quick Setup
 
    1. Clone repository:
-
-Bash
-
-git clone [https://github.com/sakiya-zannat/portfolio.git](https://github.com/sakiya-zannat/portfolio.git) 
+```
+git clone https://github.com/sakiya-zannat/my-portfolio.git 
 cd portfolio
-
+```
    2. Open index.html directly in browser or use a local server:
 
 
