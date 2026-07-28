@@ -3,8 +3,11 @@
 ## 📋 Overview
 Personal portfolio website showcasing my work as a Computer Communication Engineering Student and Developer. Features responsive design, project showcase, interactive skill cards, and continuous education timeline.
 
-**Live Portfolio Link :** https://sakiya-zannat.github.io/
+---
 
+**Live Portfolio Link :** (https://sakiya-zannat.github.io/)
+
+---
 
 ## 📌 Key Features
 - **Fully Responsive** - Optimized for mobile, tablet, and desktop view
@@ -14,7 +17,7 @@ Personal portfolio website showcasing my work as a Computer Communication Engine
 - **Contact Form** - Direct communication section
 - **Clean UI** - Dark theme with custom typography and smooth animations
 
-
+---
 
 ## 🛠️ Technologies
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
@@ -39,6 +42,7 @@ portfolio/
 ├── style.css            # Global CSS styling
 └── images/              # Assets & icons
 
+---
 🚀 Quick Setup
 
     Clone repository:
@@ -55,6 +59,8 @@ Bash
 
 python -m http.server 8000
 
+---
+
 ⚙️ Customization Guide
 Update Personal Info:
 
@@ -65,6 +71,8 @@ Update Personal Info:
    3. Update social links in footer section
 
    4. Modify color variables in style.css
+
+---
 
 Add New Projects:
 HTML
@@ -82,6 +90,8 @@ HTML
     </div>
 </div>
 
+---
+
 📊 Content Highlights
 
     Field of Study: Computer Science and Engineering (CSE)
@@ -90,6 +100,8 @@ HTML
 
     Key Projects: E-Commerce Management System Project, Personal Portfolio
 
+---
+
 🌐 Deployment Options
 GitHub Pages:
 
@@ -97,6 +109,7 @@ GitHub Pages:
    2. Settings → Pages → Select main branch
    3. Site: https://username.github.io/repo
 
+---
 
 📞 Contact & Links
 
