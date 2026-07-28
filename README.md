@@ -5,7 +5,7 @@ Personal portfolio website showcasing my work as a Computer Communication Engine
 
 ---
 
-**Live Portfolio Link :** (https://sakiya-zannat.github.io/)
+**Live Portfolio Link :** [https://sakiya-zannat.github.io/my-portfolio/](https://sakiya-zannat.github.io/my-portfolio/)
 
 ---
 
@@ -42,40 +42,33 @@ portfolio/
 ├── style.css            # Global CSS styling
 └── images/              # Assets & icons
 
----
-
-##🚀 Quick Setup
+🚀 Quick Setup
 
     Clone repository:
 
 Bash
 
-git clone https://github.com/sakiya-zannat/portfolio.git 
+git clone [https://github.com/sakiya-zannat/portfolio.git](https://github.com/sakiya-zannat/portfolio.git) 
 cd portfolio
 
-   1. Open index.html directly in browser
-   2. or use a local server:
+    Open index.html directly in browser or use a local server:
 
 Bash
 
 python -m http.server 8000
 
----
-
-##⚙️ Customization Guide
+⚙️ Customization Guide
 Update Personal Info:
 
-    1.Edit index.html - Name, bio, and hero content
+    Edit index.html - Name, bio, and hero content
 
-   2. Replace images in images/ folder
+    Replace images in images/ folder
 
-   3. Update social links in footer section
+    Update social links in footer section
 
-   4. Modify color variables in style.css
+    Modify color variables in style.css
 
----
-
-##Add New Projects:
+Add New Projects:
 HTML
 
 <div class="project-card-v2">
@@ -91,32 +84,29 @@ HTML
     </div>
 </div>
 
----
+📊 Content Highlights
 
-##📊 Content Highlights
-
-    Field of Study: Computer Science and Engineering (CSE)
+    Field of Study: Computer Communication Engineering (CCE)
 
     Primary Skills: C++, Java, JavaScript, Data Structures, OOP, Web Design
 
-    Key Projects: E-Commerce Management System Project, Personal Portfolio
+    Key Projects: Personal Portfolio, SD1 Lab Reports, Academic Java/C++ Projects
 
----
-
-##🌐 Deployment Options
+🌐 Deployment Options
 GitHub Pages:
 
-   1. Push to GitHub repository
-   2. Settings → Pages → Select main branch
-   3. Site: https://username.github.io/repo
+    Push code to GitHub repository
 
----
+    Settings → Pages → Select main branch
 
-##📞 Contact & Links
+    Site URL: https://sakiya-zannat.github.io/my-portfolio/
+
+📞 Contact & Links
 
 Sakiatun Zannat
-Computer Science and Engineering Student
 
-✉️ [sakia.zannat2023@gmail.com](mailto:sakia.zannat2023@gmail.com)  
+Computer Communication Engineering Student
 
-[LinkedIn](https://www.linkedin.com/in/sakiatun-zannat-332943293) • [GitHub](https://github.com/sakiya-zannat) • [Facebook](https://www.facebook.com/sakia.zannat1)
+✉️ sakia.zannat2023@gmail.com
+
+LinkedIn • GitHub • Facebook
