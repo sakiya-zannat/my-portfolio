@@ -87,8 +87,8 @@ GitHub Pages:
 
    1. Push code to GitHub repository
    2. Settings → Pages → Select main branch
-   3. Site: https://username.github.io/repo
-   
+   3. Site: ```https://username.github.io/repo```
+
 ## 📞 Contact & Links
 
 Sakiatun Zannat
