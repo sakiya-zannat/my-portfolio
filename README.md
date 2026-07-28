@@ -42,7 +42,8 @@ portfolio/
 ├── style.css            # Global CSS styling
 └── images/              # Assets & icons
 
-🚀 Quick Setup
+```
+## 🚀 Quick Setup
 
     Clone repository:
 
@@ -57,7 +58,7 @@ Bash
 
 python -m http.server 8000
 
-⚙️ Customization Guide
+## ⚙️ Customization Guide
 Update Personal Info:
 
     Edit index.html - Name, bio, and hero content
@@ -68,7 +69,7 @@ Update Personal Info:
 
     Modify color variables in style.css
 
-Add New Projects:
+## Add New Projects:
 HTML
 
 <div class="project-card-v2">
@@ -84,7 +85,7 @@ HTML
     </div>
 </div>
 
-📊 Content Highlights
+## 📊 Content Highlights
 
     Field of Study: Computer Communication Engineering (CCE)
 
@@ -92,7 +93,7 @@ HTML
 
     Key Projects: Personal Portfolio, SD1 Lab Reports, Academic Java/C++ Projects
 
-🌐 Deployment Options
+## 🌐 Deployment Options
 GitHub Pages:
 
     Push code to GitHub repository
@@ -101,12 +102,12 @@ GitHub Pages:
 
     Site URL: https://sakiya-zannat.github.io/my-portfolio/
 
-📞 Contact & Links
+## 📞 Contact & Links
 
 Sakiatun Zannat
 
-Computer Communication Engineering Student
+Computer Science and Engineering Student
 
 ✉️ sakia.zannat2023@gmail.com
 
-LinkedIn • GitHub • Facebook
+[LinkedIn](https://www.linkedin.com/in/sakiatun-zannat-332943293) • [GitHub](https://github.com/sakiya-zannat) • [Facebook](https://www.facebook.com/sakia.zannat1)
