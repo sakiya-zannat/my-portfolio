@@ -70,7 +70,6 @@ Update Personal Info:
     Modify color variables in style.css
 
 ## Add New Projects:
-HTML
 
 <div class="project-card-v2">
     <div class="project-img-wrapper">
