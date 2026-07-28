@@ -45,32 +45,26 @@ portfolio/
 ```
 ## 🚀 Quick Setup
 
-    Clone repository:
+   1. Clone repository:
 
 Bash
 
 git clone [https://github.com/sakiya-zannat/portfolio.git](https://github.com/sakiya-zannat/portfolio.git) 
 cd portfolio
 
-    Open index.html directly in browser or use a local server:
+   2. Open index.html directly in browser or use a local server:
 
-Bash
-
-python -m http.server 8000
 
 ## ⚙️ Customization Guide
 Update Personal Info:
 
-    Edit index.html - Name, bio, and hero content
-
-    Replace images in images/ folder
-
-    Update social links in footer section
-
-    Modify color variables in style.css
+   1. Edit index.html - Name, bio, and hero content
+   2. Replace images in images/ folder
+   3. Update social links in footer section
+   4. Modify color variables in style.css
 
 ## Add New Projects:
-
+```
 <div class="project-card-v2">
     <div class="project-img-wrapper">
         <img src="images/project-preview.png" alt="Project Title">
@@ -83,23 +77,19 @@ Update Personal Info:
         </div>
     </div>
 </div>
-
+```
 ## 📊 Content Highlights
 
-    Field of Study: Computer Communication Engineering (CCE)
-
-    Primary Skills: C++, Java, JavaScript, Data Structures, OOP, Web Design
-
-    Key Projects: Personal Portfolio, SD1 Lab Reports, Academic Java/C++ Projects
+   - **Field of Study:** Computer Science and Engineering (CSE)
+   - **Primary Skills:** C++, Java, JavaScript, Data Structures, OOP, Web Design
+   - **Key Projects:** E-Commerce Management Project,Personal Portfolio, Academic Java/C++ Projects
 
 ## 🌐 Deployment Options
 GitHub Pages:
 
-    Push code to GitHub repository
-
-    Settings → Pages → Select main branch
-
-    Site URL: https://sakiya-zannat.github.io/my-portfolio/
+   1. Push code to GitHub repository
+   2. Settings → Pages → Select main branch
+   3. Site URL: https://sakiya-zannat.github.io/my-portfolio/
 
 ## 📞 Contact & Links
 
