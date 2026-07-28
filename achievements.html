@@ -14,8 +14,15 @@
 
     <header>
         <div class="logo">Sakia</div>
-        <nav>
-            <ul class="nav-menu">
+        
+        <!-- ১. হ্যামবার্গার বাটন যুক্ত করা হয়েছে -->
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- ২. id="nav-menu" সঠিক ট্যাগে বসানো হয়েছে -->
+        <nav id="nav-menu">
+            <ul>
                 <li><a href="index.html"><img src="images/home.png" alt="Home" class="menu-icon"> Home</a></li>
                 <li><a href="about.html"><img src="images/user.png" alt="About" class="menu-icon"> About</a></li>
                 <li><a href="education.html"><img src="images/education.png" alt="Education" class="menu-icon"> Education</a></li>
@@ -30,7 +37,7 @@
 
     <section class="achievements-section">
         <h2 data-background="MY ACHIEVEMENTS">MY <span class="highlight">ACHIEVEMENTS</span></h2>
-        <p>Successfully achieved a perfect GPA 5.00 out of 5.00 in both Secondary School Certificate (S.S.C) and Higher Secondary Certificate (H.S.C) examinations.</p>
+        <p>Successfully achieved a perfect GPA 5.00 out of 5.00 in <br><br>Junior School Certificate(J.S.C)<br><br> Secondary School Certificate (S.S.C) <br><br>and<br><br>Higher Secondary Certificate (H.S.C) examinations.</p>
     </section>
 
     <footer id="contact-links">
@@ -42,5 +49,23 @@
         </div>
     </footer>
 
+    <!-- ৩. জাভাস্ক্রিপ্ট টগল স্ক্রিপ্ট যুক্ত করা হয়েছে -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            
+            const icon = hamburger.querySelector('i');
+            if (navMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+    </script>
 </body>
 </html>

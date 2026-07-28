@@ -14,8 +14,15 @@
 
     <header>
         <div class="logo">Sakia</div>
-        <nav>
-            <ul class="nav-menu">
+        
+        
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+       
+        <nav id="nav-menu">
+            <ul>
                 <li><a href="index.html"><img src="images/home.png" alt="Home" class="menu-icon"> Home</a></li>
                 <li><a href="about.html"><img src="images/user.png" alt="About" class="menu-icon"> About</a></li>
                 <li><a href="education.html"><img src="images/education.png" alt="Education" class="menu-icon"> Education</a></li>
@@ -73,5 +80,23 @@
         </div>
     </footer>
 
+    
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            
+            const icon = hamburger.querySelector('i');
+            if (navMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+    </script>
 </body>
 </html>
