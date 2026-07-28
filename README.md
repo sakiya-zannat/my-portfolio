@@ -43,6 +43,7 @@ portfolio/
 └── images/              # Assets & icons
 
 ---
+
 ##🚀 Quick Setup
 
     Clone repository:
@@ -74,7 +75,7 @@ Update Personal Info:
 
 ---
 
-## Add New Projects:
+##Add New Projects:
 HTML
 
 <div class="project-card-v2">
@@ -92,7 +93,7 @@ HTML
 
 ---
 
-## 📊 Content Highlights
+##📊 Content Highlights
 
     Field of Study: Computer Science and Engineering (CSE)
 
@@ -102,7 +103,7 @@ HTML
 
 ---
 
-## 🌐 Deployment Options
+##🌐 Deployment Options
 GitHub Pages:
 
    1. Push to GitHub repository
@@ -111,7 +112,7 @@ GitHub Pages:
 
 ---
 
-## 📞 Contact & Links
+##📞 Contact & Links
 
 Sakiatun Zannat
 Computer Science and Engineering Student
