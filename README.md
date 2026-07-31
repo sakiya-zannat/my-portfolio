@@ -1,7 +1,7 @@
 # Sakiatun Zannat - Portfolio Website
 
 ## 📋 Overview
-Personal portfolio website showcasing my work as a Computer Communication Engineering Student and Developer. Features responsive design, project showcase, interactive skill cards, and continuous education timeline.
+Personal portfolio website showcasing my work as a Computer Science and Engineering Student and Developer. Features responsive design, project showcase, interactive skill cards, and continuous education timeline.
 
 ---
 
